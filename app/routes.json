@@ -23,6 +23,18 @@
       "view": "404",
       "html-only": true,
       "hasStyle": true
+    },
+    {
+      "title": "View Box",
+      "hash": "#viewbox",
+      "view": "viewbox",
+      "html-only": true
+    },
+    {
+      "title": "Shapes",
+      "hash": "#shapes",
+      "view": "shapes",
+      "html-only": true
     }
   ]
 }

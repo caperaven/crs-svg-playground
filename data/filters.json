@@ -1,0 +1,97 @@
+[
+  {
+    "tag": "feBlend",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend",
+    "desc":"composes two objects together ruled by a certain blending mode"
+  },
+  {
+    "tag": "feColorMatrix",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix",
+    "desc":"define how to change colors on source image"
+  },
+  {
+    "tag": "feComponentTransfer",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",
+    "desc":"operations like brightness adjustment, contrast adjustment, color balance or thresholding."
+  },
+  {
+    "tag": "feComposite",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite",
+    "desc":"given two image sources compose them"
+  },
+  {
+    "tag": "feConvolveMatrix",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feConvolveMatrix",
+    "desc":"blurring, edge detection, sharpening, embossing and beveling"
+  },
+  {
+    "tag": "feDiffuseLighting",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDiffuseLighting",
+    "desc":"light image using alpha map as light map"
+  },
+  {
+    "tag": "feDisplacementMap",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap",
+    "desc":"displace the pixels of the image based on a input filter"
+  },
+  {
+    "tag": "feDropShadow",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
+    "desc":"add drop shadow to shape"
+  },
+  {
+    "tag": "feFlood",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood",
+    "desc":"flood the shape color based on flood-color and flood-opacity"
+  },
+  {
+    "tag": "feGaussianBlur",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",
+    "desc":"apply blur effect to shape or image"
+  },
+  {
+    "tag": "feImage",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",
+    "desc":"add a image 'background' to a shape"
+  },
+  {
+    "tag": "feMerge",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge",
+    "desc":"merge two effects based on reference"
+  },
+  {
+    "tag": "feMorphology",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",
+    "desc":"erode or dilate the input image"
+  },
+  {
+    "tag": "feOffset",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feOffset",
+    "desc":"change the input image dx and dy positions based on a offset value"
+  },
+  {
+    "tag": "fePointLight",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/fePointLight",
+    "desc":"create a point light effect"
+  },
+  {
+    "tag": "feSpecularLighting",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting",
+    "desc":"add specular light to source image using alpha channel as reference"
+  },
+  {
+    "tag": "feSpotLight",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpotLight",
+    "desc":"add a spot light effect"
+  },
+  {
+    "tag": "feTile",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile",
+    "desc":"tile source image across shape, similar to pattern element"
+  },
+  {
+    "tag": "feTurbulence",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence",
+    "desc":"generate perlin noise to use in other filters"
+  }
+]

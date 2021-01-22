@@ -2,3 +2,22 @@ h2 {
     text-align: center;
     color: var(--cl-primary);
 }
+
+section h2 {
+    text-align: left;
+    font-size: 1.3rem;
+    border-bottom: solid 1px;
+}
+
+.reference {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .reference {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+}

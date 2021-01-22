@@ -1,0 +1,183 @@
+[
+  {
+    "tag": "a",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a",
+    "desc":"hyperlink inside svg"
+  },
+  {
+    "tag": "animate",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate",
+    "desc":"animate an attribute of an element over time"
+  },
+  {
+    "tag": "animateMotion",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
+    "desc":"move shape over motion path"
+  },
+  {
+    "tag": "animateTransform",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",
+    "desc":"animate transform properties: transition, scale, rotation and skewing"
+  },
+  {
+    "tag": "circle",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle",
+    "desc":"circle shape"
+  },
+  {
+    "tag": "clipPath",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath",
+    "desc":"define a clip path object that is used by a clip-path property"
+  },
+  {
+    "tag": "defs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs",
+    "desc":"store graphical objects that will be used at a later time, kinda like a svg template element"
+  },
+  {
+    "tag": "desc",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc",
+    "desc":"screen reader assist element"
+  },
+  {
+    "tag": "ellipse",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse",
+    "desc":"ellipse shape"
+  },
+  {
+    "tag": "filter",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/filter",
+    "desc":"grouping element for filter effects"
+  },
+  {
+    "tag": "foreignObject",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject",
+    "desc":"allow other xml namespace content like html in the svg"
+  },
+  {
+    "tag": "g",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g",
+    "desc":"group element"
+  },
+  {
+    "tag": "image",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image",
+    "desc":"show jpg and png in your svg from a external source"
+  },
+  {
+    "tag": "line",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line",
+    "desc":"line shape"
+  },
+  {
+    "tag": "linearGradient ",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
+    "desc":"flood a fill or stroke with defined gradient"
+  },
+  {
+    "tag": "marker",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker",
+    "desc":"define arrow head or poly point markers"
+  },
+  {
+    "tag": "mask",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mask",
+    "desc":"alpha (black and white) mask for showing and hiding details"
+  },
+  {
+    "tag": "metadata",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/metadata",
+    "desc":"define meta data in svg"
+  },
+  {
+    "tag": "mpath",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mpath",
+    "desc":"link a animation motion to a path external of it self but in the svg as a path"
+  },
+  {
+    "tag": "path",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path",
+    "desc":"path shape object, used for polygons, curves and paths"
+  },
+  {
+    "tag": "pattern",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/pattern",
+    "desc":"define a svg patter used for flood a fill or stroke of a shape"
+  },
+  {
+    "tag": "polygon",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon",
+    "desc":"define a shape based on connected straight lines"
+  },
+  {
+    "tag": "polyline",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline",
+    "desc":"define connected lines"
+  },
+  {
+    "tag": "radialGradient",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/radialGradient",
+    "desc":"define a radial gradient to flood a shape's fill or stroke"
+  },
+  {
+    "tag": "rect",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect",
+    "desc":"rectangle and round rectangle shape"
+  },
+  {
+    "tag": "script",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script",
+    "desc":"define javascript logic inside the svg"
+  },
+  {
+    "tag": "set",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/set",
+    "desc":"set any attribute of a svg shape or animation for a duration"
+  },
+  {
+    "tag": "style",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/style",
+    "desc":"use css in svg to style it"
+  },
+  {
+    "tag": "svg",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg",
+    "desc":"svg element, standalone or inside other svg elements"
+  },
+  {
+    "tag": "switch",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/switch",
+    "desc":"like the javascript switch statement, determining visibility based on requiredFeatures, requiredExtensions and systemLanguage"
+  },
+  {
+    "tag": "symbol",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/symbol",
+    "desc":"templates for svg that can be instanced"
+  },
+  {
+    "tag": "text",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text",
+    "desc":"display text in svg"
+  },
+  {
+    "tag": "textPath",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath",
+    "desc":"display text following a path shape"
+  },
+
+  {
+    "tag": "title",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title",
+    "desc":"accessibility element that defines a shapes title for screen readers"
+  },
+  {
+    "tag": "tspan",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan",
+    "desc":"define subtext in a text element for better styling options"
+  },
+  {
+    "tag": "use",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use",
+    "desc":"instance element that duplicates it's reference shape, def or symbol"
+  }
+]

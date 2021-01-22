@@ -1,1 +1,54 @@
 <h2>${title}</h2>
+
+<article>
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            Welcome to svg playground <br/>
+            This app serves as a reference application on using svg for the web. <br/>
+            At the bottom of this page you can find a summary of svg elements currently available. <br/>
+            You can also go to <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">mozilla docs</a> for more detailed information. <br/>
+            The links provided here is just a filtered list that excludes depreciated features of features not yet implemented. <br/>
+        </p>
+        <p>
+            The filters are separated from the elements as they are basically about pixel manipulation used on the other elements.
+        </p>
+        <p>
+            This application has several screens that you can find in menu. <br />
+            These screens are samples that serve as a reference. <br />
+            These references will grow over time.
+        </p>
+    </section>
+
+    <section>
+        <h2>SVG elements</h2>
+        <div class="references">
+            <div class="reference">
+                <strong>Links</strong>
+                <strong>Description</strong>
+            </div>
+            <template for.once="ref of references">
+                <div class="reference">
+                    <a href="${ref.url}" target="_blank">${ref.tag}</a>
+                    <div>${ref.desc}</div>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <section>
+        <h2>SVG Filter Elements</h2>
+        <div class="references">
+            <div class="reference">
+                <strong>Links</strong>
+                <strong>Description</strong>
+            </div>
+            <template for.once="ref of filters">
+                <div class="reference">
+                    <a href="${ref.url}" target="_blank">${ref.tag}</a>
+                    <div>${ref.desc}</div>
+                </div>
+            </template>
+        </div>
+    </section>
+</article>

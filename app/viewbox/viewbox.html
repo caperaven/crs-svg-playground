@@ -1,0 +1,36 @@
+<style>
+    svg {
+        border: solid silver 1px;
+    }
+
+    .sub-text {
+        color: gray;
+        margin-top: 1rem;
+    }
+</style>
+
+<h2>View Box</h2>
+
+<h3>Standard</h3>
+
+<svg width="300" height="200">
+    <rect fill="black" x="10" y="10" width="100" height="100"></rect>
+</svg>
+
+<h3>View Box</h3>
+
+<div class="sub-text">viewBox="0 0 300 200"</div>
+<svg width="300" height="200" viewBox="0 0 300 200">
+    <rect fill="black" x="10" y="10" width="100" height="100"></rect>
+</svg>
+
+<div class="sub-text">viewBox="20 20 300 200"</div>
+<svg width="300" height="200" viewBox="20 20 300 200">
+    <rect fill="black" x="10" y="10" width="100" height="100"></rect>
+</svg>
+
+<div class="sub-text">viewBox="0 0 100 100"</div>
+<svg width="300" height="200" viewBox="0 0 100 100">
+    <rect fill="black" x="10" y="10" width="100" height="100"></rect>
+</svg>
+
