@@ -1,3 +1,14 @@
+<style>
+    svg {
+        margin-bottom: 0.5rem;
+    }
+
+    li > div {
+        color: var(--cl-primary);
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+</style>
 <h2>Shapes</h2>
 
 <ul>
@@ -9,12 +20,14 @@
             <li>width="200"</li>
             <li>height="100"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/rect.html"></html-to-text>
+        <svg width="200" height="100">
             <rect x="0" y="0" width="200" height="100" fill="black"></rect>
         </svg>
+        <hr />
     </li>
     <li>
-        <div>rect</div>
+        <div>round rect</div>
         <ul>
             <li>x="0"</li>
             <li>y="0"</li>
@@ -22,9 +35,11 @@
             <li>width="200"</li>
             <li>height="100"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/round-rect.html"></html-to-text>
+        <svg width="200" height="100">
             <rect x="0" y="0" rx="20" width="200" height="100" fill="black"></rect>
         </svg>
+        <hr />
     </li>
     <li>
         <div>circle</div>
@@ -33,9 +48,11 @@
             <li>cy="50"</li>
             <li>r="50"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/circle.html"></html-to-text>
+        <svg width="200" height="100">
             <circle cx="50" cy="50" r="50" fill="black"></circle>
         </svg>
+        <hr />
     </li>
     <li>
         <div>ellipse</div>
@@ -45,9 +62,11 @@
             <li>rx="100"</li>
             <li>ry="50"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/ellipse.html"></html-to-text>
+        <svg width="200" height="100">
             <ellipse cx="100" cy="50" rx="100" ry="50" fill="black"></ellipse>
         </svg>
+        <hr />
     </li>
     <li>
         <div>line</div>
@@ -57,36 +76,44 @@
             <li>y1="0"</li>
             <li>y2="100"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/line.html"></html-to-text>
+        <svg width="200" height="100">
             <line x1="0" x2="200" y1="0" y2="100" stroke="black"></line>
         </svg>
+        <hr />
     </li>
     <li>
         <div>polyLine</div>
         <ul>
             <li>points="0,0 25,100 50,0 200,100"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/polyline.html"></html-to-text>
+        <svg width="200" height="100">
             <polyline points="0,0 25,100 50,0 200,100" stroke="black" fill="transparent"></polyline>
         </svg>
+        <hr />
     </li>
     <li>
         <div>path</div>
         <ul>
             <li>d="M0,0 L25,100 L50,0 L200,100 z"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/path.html"></html-to-text>
+        <svg width="200" height="100">
             <path d="M0,0 L25,100 L50,0 L200,100 z" fill="black"></path>
         </svg>
+        <hr />
     </li>
     <li>
         <div>polygon</div>
         <ul>
             <li>points="0,0 25,100 50,0 200,100"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/polygon.html"></html-to-text>
+        <svg width="200" height="100">
             <polygon points="0,0 25,100 50,0 200,100" fill="black"></polygon>
         </svg>
+        <hr />
     </li>
     <li>
         <div>image</div>
@@ -95,16 +122,19 @@
             <li>height="100"</li>
             <li>width="200"</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/image.html"></html-to-text>
+        <svg width="200" height="100">
             <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100" width="200"/>
         </svg>
+        <hr />
     </li>
     <li>
         <div>text</div>
         <ul>
             <li>Set the node value of the text element to the text you want to show</li>
         </ul>
-        <svg width="200" height="100" style="margin: 1rem">
+        <html-to-text src="/templates/shapes-examples/text.html"></html-to-text>
+        <svg width="200" height="100">
             <text x="10" y="50">Hello World</text>
         </svg>
     </li>
