@@ -34,7 +34,8 @@
       "title": "Shapes",
       "hash": "#shapes",
       "view": "shapes",
-      "html-only": true
+      "html-only": true,
+      "js": ["/components/html-to-text/html-to-text.js"]
     }
   ]
 }

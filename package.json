@@ -30,6 +30,6 @@
     },
     "dependencies": {
         "crs-binding": "0.0.143",
-        "crs-router": "0.0.48"
+        "crs-router": "0.0.73"
     }
 }
