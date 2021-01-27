@@ -1,0 +1,19 @@
+<style>
+    boolean-visualization {
+        display: block;
+        margin-top: 1rem;
+    }
+</style>
+<h2>${title}</h2>
+
+<label>
+    <div>True Value</div>
+    <input value.bind="trueValue" />
+</label>
+
+<label>
+    <div>False Value</div>
+    <input value.bind="falseValue" />
+</label>
+
+<boolean-visualization true-value.one-way="trueValue" false-value.one-way="falseValue"></boolean-visualization>

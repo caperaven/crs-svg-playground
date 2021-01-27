@@ -36,6 +36,11 @@
       "view": "shapes",
       "html-only": true,
       "js": ["/components/html-to-text/html-to-text.js"]
+    },
+    {
+      "title": "Web component",
+      "hash": "#component",
+      "view": "component"
     }
   ]
 }
