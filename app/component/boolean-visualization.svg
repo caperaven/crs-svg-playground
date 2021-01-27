@@ -1,6 +1,8 @@
-<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
-    <rect id="rectTrue" x="0" y="0" width.attr="settings.x2" height="100%" fill="green"></rect>
+<svg width="300" height="80" xmlns="http://www.w3.org/2000/svg">
+    <rect id="rectTrue" x="0" y="0" width.attr="settings.x2" height="50" fill="green"></rect>
     <text id="textTrue" x.attr="settings.x1Text" y="30" fill="white">True</text>
-    <rect id="rectFalse" x.attr="settings.x2" y="0" width.attr="settings.falseWidth" height="100%" fill="red"></rect>
+    <rect id="rectFalse" x.attr="settings.x2" y="0" width.attr="settings.falseWidth" height="50" fill="red"></rect>
     <text id="textFalse" x.attr="settings.x2Text" y="30" fill="white">False</text>
+
+    <text x.attr="settings.x1Text" y="70">Total: ${settings.total} - (${trueValue} : ${falseValue})</text>
 </svg>

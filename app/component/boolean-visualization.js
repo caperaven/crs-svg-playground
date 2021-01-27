@@ -5,6 +5,10 @@
  * the setters also update the calculate so that if you make changes to the values it will update.
  */
 class BooleanVisualization extends crsbinding.classes.BindableElement {
+    /**
+     * Show how to load svg content as the component content instead of a html file
+     * @returns {string}
+     */
     get html() {
         return import.meta.url.replace(".js", ".svg");
     }
@@ -27,6 +31,9 @@ class BooleanVisualization extends crsbinding.classes.BindableElement {
         this.calculate().catch(e => console.error(e));
     }
 
+    /**
+     * Component is ready, update the graphics
+     */
     load() {
         this.calculate().catch(e => console.error(e));
     }
@@ -41,7 +48,7 @@ class BooleanVisualization extends crsbinding.classes.BindableElement {
 
         if (trueValue == null || falseValue == null) return;
 
-        const width = 200;
+        const width = 300;
         const textMargin = 20;
 
         const total = trueValue + falseValue;
@@ -51,7 +58,8 @@ class BooleanVisualization extends crsbinding.classes.BindableElement {
             x2: x2,
             x1Text: textMargin,
             x2Text: x2 + textMargin,
-            falseWidth: width - x2
+            falseWidth: width - x2,
+            total: total
         })
     }
 }
