@@ -1,0 +1,31 @@
+<article>
+    <section>
+        <h2>Relative layout</h2>
+        <p>
+            There are times when you want a group of elements that must be relative to the group. <br />
+            This can be achieved but there is one catch you need to be aware of. <br />
+            <br />
+            Do not use the x and y attributes on the group element. <br />
+            Instead use the transform attribute. <br />
+            <strong>transform="translate(100, 100)"</strong>
+        </p>
+
+        <h3>Wrong way of doing it</h3>
+        <svg width="200" height="100">
+            <g x="50" y="50">
+                <rect width="20" height="20" fill="black"></rect>
+            </g>
+        </svg>
+
+        <html-to-text src="/templates/relative-layout/wrong-way.html"></html-to-text>
+
+        <h3>Right way of doing it</h3>
+        <svg width="200" height="100">
+            <g transform="translate(50, 50)">
+                <rect width="20" height="20" fill="black"></rect>
+            </g>
+        </svg>
+
+        <html-to-text src="/templates/relative-layout/right-way.html"></html-to-text>
+    </section>
+</article>

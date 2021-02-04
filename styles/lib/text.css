@@ -3,7 +3,7 @@ h1 {
     margin: 0;
 }
 
-a, a:visited, a:hover {
+a, a:visited {
     color: #fe0090;
     text-decoration: none;
 }

@@ -41,6 +41,13 @@
       "title": "Web component",
       "hash": "#component",
       "view": "component"
+    },
+    {
+      "title": "Relative layout",
+      "hash": "#relative-layout",
+      "view": "relative-layout",
+      "html-only": true,
+      "js": ["/components/html-to-text/html-to-text.js"]
     }
   ]
 }
